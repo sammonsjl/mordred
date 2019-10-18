@@ -311,6 +311,15 @@
   menu:
   - name: Overview
     panel: panels/json/apache.json
+- name: Liferay
+  source: liferay
+  icon: default.png
+  index-patterns:
+  - panels/json/liferay_blog-index-pattern.json
+  - panels/json/liferay_message-index-pattern.json
+  menu:
+  - name: Overview
+    panel: panels/json/liferay.json
 - name: Testing
   source: functest
   icon: default.png
